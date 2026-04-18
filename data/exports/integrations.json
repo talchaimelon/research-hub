@@ -1,6 +1,6 @@
 [
   {
-    "id": 35,
+    "id": 48,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "Calendar",
     "system_type": "calendar",
@@ -9,7 +9,7 @@
     "notes": "תיאום ראיונות"
   },
   {
-    "id": 34,
+    "id": 47,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "ATS",
     "system_type": "hr-system",
@@ -18,7 +18,7 @@
     "notes": "resume parsing ו-pipeline"
   },
   {
-    "id": 36,
+    "id": 49,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "Email",
     "system_type": "email",
@@ -27,7 +27,7 @@
     "notes": "תקשורת עם מועמדים"
   },
   {
-    "id": 39,
+    "id": 52,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "Google Sheets",
     "system_type": "spreadsheets",
@@ -36,7 +36,7 @@
     "notes": "גיבוי ומעקב פשוט"
   },
   {
-    "id": 37,
+    "id": 50,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "WhatsApp",
     "system_type": "messaging",
@@ -45,7 +45,7 @@
     "notes": "follow-up ולידים"
   },
   {
-    "id": 38,
+    "id": 51,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "CRM נדל\"ן",
     "system_type": "crm",
@@ -54,7 +54,7 @@
     "notes": "סטטוס לידים ונכסים"
   },
   {
-    "id": 28,
+    "id": 41,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Google Calendar",
     "system_type": "calendar",
@@ -63,7 +63,7 @@
     "notes": "תיאומים, משימות, action items"
   },
   {
-    "id": 29,
+    "id": 42,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Notion",
     "system_type": "workspace",
@@ -72,7 +72,7 @@
     "notes": "ניהול בריפים וידע"
   },
   {
-    "id": 27,
+    "id": 40,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Gmail",
     "system_type": "email",
@@ -81,7 +81,7 @@
     "notes": "קריאה, סיכום, draft replies ו-follow-up"
   },
   {
-    "id": 30,
+    "id": 43,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Airtable / CRM",
     "system_type": "database",
@@ -90,7 +90,7 @@
     "notes": "pipeline ללידים והצעות"
   },
   {
-    "id": 33,
+    "id": 46,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "ERP / הנה\"ח",
     "system_type": "finance-system",
@@ -99,7 +99,7 @@
     "notes": "חיבור לייצואים ממערכות legacy"
   },
   {
-    "id": 31,
+    "id": 44,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "Google Drive / Dropbox",
     "system_type": "documents",
@@ -108,7 +108,7 @@
     "notes": "קליטת מסמכים וארגון"
   },
   {
-    "id": 32,
+    "id": 45,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "Excel / Google Sheets",
     "system_type": "spreadsheets",
