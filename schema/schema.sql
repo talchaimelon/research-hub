@@ -75,3 +75,13 @@ CREATE TABLE IF NOT EXISTS skills_required (
   purpose TEXT,
   priority TEXT
 );
+
+
+CREATE TABLE IF NOT EXISTS access_requests (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at TEXT NOT NULL,
+  channel TEXT,
+  requester TEXT,
+  note TEXT,
+  status TEXT DEFAULT 'pending'
+);

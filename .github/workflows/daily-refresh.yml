@@ -16,8 +16,12 @@ jobs:
         with:
           python-version: '3.12'
       - name: Refresh data
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+          SITE_SALT: ${{ secrets.SITE_SALT }}
         run: |
           python3 scripts/seed_and_export.py
+          python3 scripts/prepare_gate.py
           python3 scripts/build_site.py
       - name: Commit if changed
         run: |

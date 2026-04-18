@@ -10,9 +10,9 @@
   },
   "top_insights": [
     {
-      "id": 14,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 24,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "רואי חשבון / פיננסים",
       "title": "Workflow ראשון מומלץ: מסמכים חסרים → dashboard → follow-up",
       "summary": "זה אחד המקומות הכי שוחקים במשרד. אם חוסכים שם שעה ביום, זה רווח מיידי.",
@@ -27,9 +27,9 @@
       "status": "validated"
     },
     {
-      "id": 13,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 23,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "פרילנסרים / מנהלי צוות עצמאיים",
       "title": "Workflow ראשון מומלץ: ליד → intake → proposal → follow-up",
       "summary": "זה workflow עם ROI ברור, קל לדמו, וקל למדוד איפה זמן נשחק ואיפה conversion נופל.",
@@ -44,9 +44,9 @@
       "status": "validated"
     },
     {
-      "id": 12,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 22,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "כללי",
       "title": "מחקרי שוק, קהלים והמלצות צריכים לחיות באתר אחד",
       "summary": "צריך Research Hub מרוכז עם טבלאות, deliverables והמלצות שמתעדכן אוטומטית.",
@@ -61,9 +61,9 @@
       "status": "validated"
     },
     {
-      "id": 11,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 21,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "כללי",
       "title": "אסור לבנות מוצר רוחבי לפני בחירת workflow אחד",
       "summary": "המהלך הנכון הוא לבחור ICP צר ו-workflow כואב אחד, להוכיח ROI, ורק אז להרחיב.",
@@ -78,9 +78,9 @@
       "status": "validated"
     },
     {
-      "id": 7,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 17,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "פרילנסרים / מנהלי צוות עצמאיים",
       "title": "הקהל המהיר ביותר ל-ROI",
       "summary": "הקהל הזה חי על זמן, הצעות מחיר, בריפים ו-follow-up, ולכן מבין מהר leverage וערך.",
@@ -95,9 +95,9 @@
       "status": "validated"
     },
     {
-      "id": 8,
-      "created_at": "2026-04-18 17:51:14",
-      "updated_at": "2026-04-18 17:51:14",
+      "id": 18,
+      "created_at": "2026-04-18 17:57:29",
+      "updated_at": "2026-04-18 17:57:29",
       "segment": "רואי חשבון / פיננסים",
       "title": "Vertical עם כאב חד ו-WTP גבוה",
       "summary": "הכאב ברור, הכסף ברור, והחיסכון בשעות חוזר ישירות לרווחיות המשרד.",
@@ -114,8 +114,8 @@
   ],
   "top_recommendations": [
     {
-      "id": 19,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 32,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "רואי חשבון / פיננסים",
       "type": "landing-page",
       "title": "Headline מומלץ",
@@ -125,8 +125,8 @@
       "status": "open"
     },
     {
-      "id": 18,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 31,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
       "type": "landing-page",
       "title": "Headline מומלץ",
@@ -136,8 +136,8 @@
       "status": "open"
     },
     {
-      "id": 17,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 30,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "כללי",
       "type": "landing-page",
       "title": "מסגרת לדפי נחיתה",
@@ -147,8 +147,8 @@
       "status": "open"
     },
     {
-      "id": 16,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 29,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "כללי",
       "type": "strategy",
       "title": "סדר עדיפויות",
@@ -158,8 +158,8 @@
       "status": "open"
     },
     {
-      "id": 15,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 28,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "כללי",
       "type": "site",
       "title": "Research Hub",
@@ -169,8 +169,8 @@
       "status": "open"
     },
     {
-      "id": 12,
-      "created_at": "2026-04-18 17:51:14",
+      "id": 25,
+      "created_at": "2026-04-18 17:57:29",
       "audience_name": "רואי חשבון / פיננסים",
       "type": "tech",
       "title": "Human in the loop",

@@ -20,6 +20,11 @@ jobs:
           python-version: '3.12'
       - name: Seed and export
         run: python3 scripts/seed_and_export.py
+      - name: Prepare password gate
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+          SITE_SALT: ${{ secrets.SITE_SALT }}
+        run: python3 scripts/prepare_gate.py
       - name: Build site
         run: python3 scripts/build_site.py
       - name: Setup Pages

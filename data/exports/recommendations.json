@@ -1,7 +1,7 @@
 [
   {
-    "id": 19,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 32,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -11,8 +11,8 @@
     "status": "open"
   },
   {
-    "id": 18,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 31,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -22,8 +22,8 @@
     "status": "open"
   },
   {
-    "id": 17,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 30,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "כללי",
     "type": "landing-page",
     "title": "מסגרת לדפי נחיתה",
@@ -33,8 +33,8 @@
     "status": "open"
   },
   {
-    "id": 16,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 29,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "כללי",
     "type": "strategy",
     "title": "סדר עדיפויות",
@@ -44,8 +44,8 @@
     "status": "open"
   },
   {
-    "id": 15,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 28,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "כללי",
     "type": "site",
     "title": "Research Hub",
@@ -55,8 +55,8 @@
     "status": "open"
   },
   {
-    "id": 12,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 25,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "tech",
     "title": "Human in the loop",
@@ -66,8 +66,8 @@
     "status": "open"
   },
   {
-    "id": 11,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 24,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "product",
     "title": "MVP ראשון",
@@ -77,8 +77,8 @@
     "status": "open"
   },
   {
-    "id": 10,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 23,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "research",
     "title": "שאלות ראיונות שוק",
@@ -88,8 +88,8 @@
     "status": "open"
   },
   {
-    "id": 9,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 22,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "offer",
     "title": "הצעת ערך ראשונה",
@@ -99,8 +99,8 @@
     "status": "open"
   },
   {
-    "id": 21,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 34,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "product",
     "title": "MVP channel priority",
@@ -110,8 +110,8 @@
     "status": "open"
   },
   {
-    "id": 20,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 33,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "אנשי HR / גיוס",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -121,8 +121,8 @@
     "status": "open"
   },
   {
-    "id": 14,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 27,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "landing-page",
     "title": "זווית לדף נחיתה",
@@ -132,8 +132,8 @@
     "status": "open"
   },
   {
-    "id": 13,
-    "created_at": "2026-04-18 17:51:14",
+    "id": 26,
+    "created_at": "2026-04-18 17:57:29",
     "audience_name": "אנשי HR / גיוס",
     "type": "product",
     "title": "Workflow ראשון",
