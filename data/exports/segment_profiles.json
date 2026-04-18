@@ -1,6 +1,6 @@
 [
   {
-    "id": 5,
+    "slug": "freelancers",
     "name": "פרילנסרים / מנהלי צוות עצמאיים",
     "category": "operations",
     "short_description": "עצמאיים וסוכנויות קטנות שמחפשים leverage, אוטומציה ויותר תפוקה ללא גיוס.",
@@ -12,10 +12,13 @@
     "priority_rank": 1,
     "recommended_offer": "בנו לעצמכם עובד AI פנימי ללידים, הצעות מחיר, בריפים ו-follow-up",
     "recommended_mvp": "טופס intake + סיכום דרישה + draft להצעת מחיר + follow-up reminders",
-    "notes": "קהל ראשון מומלץ. ROI מהיר, מעט חסמי רגולציה."
+    "notes": "קהל ראשון מומלץ. ROI מהיר, מעט חסמי רגולציה.",
+    "core_message": "תפסיקו להיות צוואר הבקבוק של העסק שלכם.",
+    "landing_angle": "פחות אדמין, יותר תפוקה, יותר רווח בלי להגדיל צוות.",
+    "next_step": "לראיין 10 פרילנסרים על process של הצעת מחיר ו-follow-up."
   },
   {
-    "id": 6,
+    "slug": "finance",
     "name": "רואי חשבון / פיננסים",
     "category": "finance",
     "short_description": "משרדי ראיית חשבון ופיננסים עם עומס מסמכים, בדיקות, מעקב וחוסרים.",
@@ -27,10 +30,13 @@
     "priority_rank": 2,
     "recommended_offer": "בנו תהליכי AI פנימיים שחוסכים שעות עבודה בלי להחליף את המערכות הקיימות",
     "recommended_mvp": "קליטת מסמכים + סיווג + dashboard לחוסרים + follow-up ללקוחות",
-    "notes": "Vertical חזק, אך דורש בקרה, audit trail ו-human-in-the-loop."
+    "notes": "Vertical חזק, אך דורש בקרה, audit trail ו-human-in-the-loop.",
+    "core_message": "פחות עבודה שחורה, יותר שליטה, סדר ורווחיות.",
+    "landing_angle": "AI כעוזר תפעולי למשרד, לא כתחליף לשיקול דעת מקצועי.",
+    "next_step": "למפות תהליך חוסרים / מסמכים / סגירת חודש עם 8-10 משרדים."
   },
   {
-    "id": 7,
+    "slug": "hr",
     "name": "אנשי HR / גיוס",
     "category": "hr",
     "short_description": "צוותי HR וגיוס שרוצים לקצר עבודה תפעולית ולבנות כלי AI פנימיים.",
@@ -42,10 +48,13 @@
     "priority_rank": 3,
     "recommended_offer": "בנו כלי AI פנימיים שמקצרים עבודת גיוס ותפעול HR בלי תלות בפיתוח",
     "recommended_mvp": "resume parsing + scorecard + interview questions + feedback summarizer",
-    "notes": "טוב, אבל רגיש לפרטיות, bias ואישור ארגוני."
+    "notes": "טוב, אבל רגיש לפרטיות, bias ואישור ארגוני.",
+    "core_message": "שחררו את צוות הגיוס ממשימות שחוזרות על עצמן.",
+    "landing_angle": "פחות אדמין, יותר גיוס, יותר candidate experience.",
+    "next_step": "לראיין 8 מגייסים ולבחור workflow low-risk ראשון."
   },
   {
-    "id": 8,
+    "slug": "real-estate",
     "name": "סוכני נדל\"ן / מתווכים",
     "category": "real-estate",
     "short_description": "מתווכים ומשרדי תיווך שרוצים follow-up מהיר יותר, סדר בלידים ויותר עסקאות.",
@@ -57,6 +66,9 @@
     "priority_rank": 4,
     "recommended_offer": "בנו עוזר AI ללידים, תיאומי פגישות ומעקב שוטף",
     "recommended_mvp": "lead intake + prioritization + follow-up + התאמת נכסים בסיסית",
-    "notes": "יש כאב, אבל adoption פחות יציב."
+    "notes": "יש כאב, אבל adoption פחות יציב.",
+    "core_message": "יותר מהירות תגובה, יותר סדר, יותר עסקאות.",
+    "landing_angle": "למכור תוצאה, לא טכנולוגיה. מהירות תגובה ו-follow-up = כסף.",
+    "next_step": "לדבר עם 10 מתווכים ולבדוק איפה לידים באמת נופלים."
   }
 ]

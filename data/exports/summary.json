@@ -2,15 +2,51 @@
   "executive_summary": "יש ארבעה קהלים חזקים, אבל לא כולם שווים באטרקטיביות עסקית. הבחירה הנכונה עכשיו היא להוביל עם פרילנסרים ומנהלי צוות עצמאיים, אחריהם רואי חשבון ופיננסים. הסיבה פשוטה: ROI ברור יותר, פחות חסמי פרטיות ורגולציה, ו-MVP מהיר יותר לבנייה. בכל הסגמנטים אסור להתחיל ממוצר רחב. צריך לבחור ICP צר, workflow אחד כואב, למדוד ROI, ורק אז להרחיב.",
   "stats": {
     "קהלי יעד": 4,
-    "מחקרים": 6,
-    "המלצות": 8,
-    "תוצרים": 6
+    "מחקרים": 10,
+    "המלצות": 13,
+    "תוצרים": 8,
+    "אינטגרציות": 13,
+    "Skills": 12
   },
   "top_insights": [
     {
-      "id": 6,
-      "created_at": "2026-04-18 17:41:45",
-      "updated_at": "2026-04-18 17:41:45",
+      "id": 14,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
+      "segment": "רואי חשבון / פיננסים",
+      "title": "Workflow ראשון מומלץ: מסמכים חסרים → dashboard → follow-up",
+      "summary": "זה אחד המקומות הכי שוחקים במשרד. אם חוסכים שם שעה ביום, זה רווח מיידי.",
+      "pain_points": "מסמכים חסרים, chase, בדיקות ידניות",
+      "value_proposition": "בקרה וחיסכון בזמן בלי להחליף ERP",
+      "buying_motivation": "להוריד עומס מצוות קיים",
+      "objections": "\"זה רגיש מדי\"",
+      "willingness_to_pay": 5,
+      "priority_score": 34,
+      "source_type": "chat",
+      "source_ref": "telegram group",
+      "status": "validated"
+    },
+    {
+      "id": 13,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
+      "segment": "פרילנסרים / מנהלי צוות עצמאיים",
+      "title": "Workflow ראשון מומלץ: ליד → intake → proposal → follow-up",
+      "summary": "זה workflow עם ROI ברור, קל לדמו, וקל למדוד איפה זמן נשחק ואיפה conversion נופל.",
+      "pain_points": "אובדן זמן בין ליד להצעה",
+      "value_proposition": "מערכת אחת שסוגרת את הפער מליד להצעת מחיר",
+      "buying_motivation": "לשפר response time ולסגור יותר עבודות",
+      "objections": "\"אני כבר עובד ידנית\"",
+      "willingness_to_pay": 5,
+      "priority_score": 33,
+      "source_type": "chat",
+      "source_ref": "telegram group",
+      "status": "validated"
+    },
+    {
+      "id": 12,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
       "segment": "כללי",
       "title": "מחקרי שוק, קהלים והמלצות צריכים לחיות באתר אחד",
       "summary": "צריך Research Hub מרוכז עם טבלאות, deliverables והמלצות שמתעדכן אוטומטית.",
@@ -25,9 +61,9 @@
       "status": "validated"
     },
     {
-      "id": 5,
-      "created_at": "2026-04-18 17:41:45",
-      "updated_at": "2026-04-18 17:41:45",
+      "id": 11,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
       "segment": "כללי",
       "title": "אסור לבנות מוצר רוחבי לפני בחירת workflow אחד",
       "summary": "המהלך הנכון הוא לבחור ICP צר ו-workflow כואב אחד, להוכיח ROI, ורק אז להרחיב.",
@@ -42,9 +78,9 @@
       "status": "validated"
     },
     {
-      "id": 1,
-      "created_at": "2026-04-18 17:41:45",
-      "updated_at": "2026-04-18 17:41:45",
+      "id": 7,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
       "segment": "פרילנסרים / מנהלי צוות עצמאיים",
       "title": "הקהל המהיר ביותר ל-ROI",
       "summary": "הקהל הזה חי על זמן, הצעות מחיר, בריפים ו-follow-up, ולכן מבין מהר leverage וערך.",
@@ -59,9 +95,9 @@
       "status": "validated"
     },
     {
-      "id": 2,
-      "created_at": "2026-04-18 17:41:45",
-      "updated_at": "2026-04-18 17:41:45",
+      "id": 8,
+      "created_at": "2026-04-18 17:51:14",
+      "updated_at": "2026-04-18 17:51:14",
       "segment": "רואי חשבון / פיננסים",
       "title": "Vertical עם כאב חד ו-WTP גבוה",
       "summary": "הכאב ברור, הכסף ברור, והחיסכון בשעות חוזר ישירות לרווחיות המשרד.",
@@ -74,29 +110,45 @@
       "source_type": "chat",
       "source_ref": "telegram group",
       "status": "validated"
-    },
-    {
-      "id": 3,
-      "created_at": "2026-04-18 17:41:45",
-      "updated_at": "2026-04-18 17:41:45",
-      "segment": "אנשי HR / גיוס",
-      "title": "כאב אמיתי אבל מחזור החלטה איטי יותר",
-      "summary": "צוותי HR סובלים מעומס תפעולי, אבל נתקלים בפרטיות, bias ותהליכי אישור ארגוניים.",
-      "pain_points": "סינון קו\"ח, תיאום, פידבק מראיינים",
-      "value_proposition": "פחות אדמין, יותר גיוס",
-      "buying_motivation": "לקצר זמן גיוס ולהיראות חדשניים",
-      "objections": "פרטיות, bias, מערכות סגורות",
-      "willingness_to_pay": 4,
-      "priority_score": 26,
-      "source_type": "chat",
-      "source_ref": "telegram group",
-      "status": "validated"
     }
   ],
   "top_recommendations": [
     {
-      "id": 8,
-      "created_at": "2026-04-18 17:41:45",
+      "id": 19,
+      "created_at": "2026-04-18 17:51:14",
+      "audience_name": "רואי חשבון / פיננסים",
+      "type": "landing-page",
+      "title": "Headline מומלץ",
+      "details": "פחות עבודה שחורה, יותר שליטה ורווחיות למשרד.",
+      "priority": "high",
+      "owner": "Elon",
+      "status": "open"
+    },
+    {
+      "id": 18,
+      "created_at": "2026-04-18 17:51:14",
+      "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+      "type": "landing-page",
+      "title": "Headline מומלץ",
+      "details": "פרילנסר חכם לא עובד יותר שעות, הוא בונה לעצמו מערכות.",
+      "priority": "high",
+      "owner": "Elon",
+      "status": "open"
+    },
+    {
+      "id": 17,
+      "created_at": "2026-04-18 17:51:14",
+      "audience_name": "כללי",
+      "type": "landing-page",
+      "title": "מסגרת לדפי נחיתה",
+      "details": "כל דף נחיתה חייב להתבסס על outcome אחד, workflow אחד, ו-CTA אחד. לא דף כללי מדי.",
+      "priority": "high",
+      "owner": "Elon",
+      "status": "open"
+    },
+    {
+      "id": 16,
+      "created_at": "2026-04-18 17:51:14",
       "audience_name": "כללי",
       "type": "strategy",
       "title": "סדר עדיפויות",
@@ -106,8 +158,8 @@
       "status": "open"
     },
     {
-      "id": 7,
-      "created_at": "2026-04-18 17:41:45",
+      "id": 15,
+      "created_at": "2026-04-18 17:51:14",
       "audience_name": "כללי",
       "type": "site",
       "title": "Research Hub",
@@ -117,8 +169,8 @@
       "status": "open"
     },
     {
-      "id": 4,
-      "created_at": "2026-04-18 17:41:45",
+      "id": 12,
+      "created_at": "2026-04-18 17:51:14",
       "audience_name": "רואי חשבון / פיננסים",
       "type": "tech",
       "title": "Human in the loop",
@@ -126,28 +178,12 @@
       "priority": "high",
       "owner": "Elon",
       "status": "open"
-    },
-    {
-      "id": 3,
-      "created_at": "2026-04-18 17:41:45",
-      "audience_name": "רואי חשבון / פיננסים",
-      "type": "product",
-      "title": "MVP ראשון",
-      "details": "להתחיל ב-flow של מסמכים חסרים, סיווג, dashboard ומעקב ללקוח.",
-      "priority": "high",
-      "owner": "Elon",
-      "status": "open"
-    },
-    {
-      "id": 2,
-      "created_at": "2026-04-18 17:41:45",
-      "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
-      "type": "research",
-      "title": "שאלות ראיונות שוק",
-      "details": "לראיין 10 פרילנסרים על הצעות מחיר, bottlenecks, follow-up והיכן לידים נופלים.",
-      "priority": "high",
-      "owner": "Elon",
-      "status": "open"
     }
+  ],
+  "priority_order": [
+    "פרילנסרים / מנהלי צוות עצמאיים",
+    "רואי חשבון / פיננסים",
+    "אנשי HR / גיוס",
+    "סוכני נדל\"ן / מתווכים"
   ]
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "segment": "פרילנסרים",
+    "competitor": "Zapier / Make",
+    "type": "automation",
+    "strength": "אוטומציה רחבה",
+    "weakness": "לא package אנכי לבעיה עסקית אחת",
+    "opportunity": "למכור outcome ולא רק automation builder"
+  },
+  {
+    "segment": "פרילנסרים",
+    "competitor": "ChatGPT",
+    "type": "general AI",
+    "strength": "זמין ומוכר",
+    "weakness": "לא workflow system",
+    "opportunity": "להמיר שיחות לכלי עבודה קבועים"
+  },
+  {
+    "segment": "פיננסים",
+    "competitor": "משרדי אוטומציה / BI",
+    "type": "services",
+    "strength": "פתרון מותאם",
+    "weakness": "יקר ואיטי",
+    "opportunity": "פתרון internal-first, מהיר וזול יותר"
+  },
+  {
+    "segment": "HR",
+    "competitor": "ATS קיימים",
+    "type": "platform",
+    "strength": "תשתית קיימת",
+    "weakness": "חסרים שכבת AI גמישה מותאמת צוות",
+    "opportunity": "copilot מעל ATS"
+  },
+  {
+    "segment": "נדל\"ן",
+    "competitor": "CRM נדל\"ן",
+    "type": "crm",
+    "strength": "מנהלים pipeline",
+    "weakness": "חלשים ב-follow-up אינטליגנטי",
+    "opportunity": "WhatsApp-first follow-up assistant"
+  }
+]

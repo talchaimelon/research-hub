@@ -5,25 +5,42 @@ from datetime import datetime, timezone
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 EXPORTS = ROOT / 'data' / 'exports'
 SRC = ROOT / 'src'
+SEGMENTS = SRC / 'segments'
+PAGES_DIR = SRC / 'pages'
+for d in [SEGMENTS, PAGES_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
 
 
 def load(name):
     return json.loads((EXPORTS / name).read_text())
 
 
-def render_page(title, body, active=''):
+def page_template(title, body, active='', root=''):
+    prefix = './' if root == '' else root
     nav = ''.join([
-        f"<a href='index.html'>{'בית' if active!='home' else '<strong>בית</strong>'}</a>",
-        f"<a href='audiences.html'>{'קהלי יעד' if active!='audiences' else '<strong>קהלי יעד</strong>'}</a>",
-        f"<a href='research.html'>{'מחקרים' if active!='research' else '<strong>מחקרים</strong>'}</a>",
-        f"<a href='recommendations.html'>{'המלצות' if active!='recommendations' else '<strong>המלצות</strong>'}</a>",
-        f"<a href='pages.html'>{'דפים ותוצרים' if active!='pages' else '<strong>דפים ותוצרים</strong>'}</a>",
+        f"<a href='{prefix}index.html'>{'בית' if active!='home' else '<strong>בית</strong>'}</a>",
+        f"<a href='{prefix}audiences.html'>{'קהלי יעד' if active!='audiences' else '<strong>קהלי יעד</strong>'}</a>",
+        f"<a href='{prefix}research.html'>{'מחקרים' if active!='research' else '<strong>מחקרים</strong>'}</a>",
+        f"<a href='{prefix}recommendations.html'>{'המלצות' if active!='recommendations' else '<strong>המלצות</strong>'}</a>",
+        f"<a href='{prefix}landing-pages.html'>{'דפי נחיתה' if active!='landing' else '<strong>דפי נחיתה</strong>'}</a>",
+        f"<a href='{prefix}competitors.html'>{'מתחרים' if active!='competitors' else '<strong>מתחרים</strong>'}</a>",
+        f"<a href='{prefix}opportunities.html'>{'הזדמנויות' if active!='opportunities' else '<strong>הזדמנויות</strong>'}</a>",
+        f"<a href='{prefix}pages.html'>{'דפים ותוצרים' if active!='pages' else '<strong>דפים ותוצרים</strong>'}</a>",
     ])
-    return f"""<!doctype html><html lang='he' dir='rtl'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>{title}</title><link rel='stylesheet' href='assets/styles.css'></head><body><header><div class='hero'><div><div class='pill'>Market Research Hub</div><h1>{title}</h1><div class='muted small'>עודכן: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</div></div><nav>{nav}</nav></div></header><main>{body}</main><footer class='muted small'>Built for continuous research updates.</footer></body></html>"""
+    css = f"{prefix}assets/styles.css"
+    return f"""<!doctype html><html lang='he' dir='rtl'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>{title}</title><link rel='stylesheet' href='{css}'></head><body><header><div class='hero'><div><div class='pill'>Market Research Hub</div><h1>{title}</h1><div class='muted small'>עודכן: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</div></div><nav>{nav}</nav></div></header><main>{body}</main><footer class='muted small'>Continuous research repository, updated from live work.</footer></body></html>"""
 
 
-def save(name, html):
-    (SRC / name).write_text(html)
+def write(path, html):
+    path.write_text(html)
+
+
+def card(title, body, meta=''):
+    return f"<div class='card'><h3>{title}</h3>{f'<div class=\'muted small\'>{meta}</div>' if meta else ''}<p>{body}</p></div>"
+
+
+def table(headers, rows):
+    return "<table><thead><tr>" + ''.join([f'<th>{h}</th>' for h in headers]) + "</tr></thead><tbody>" + ''.join(["<tr>" + ''.join([f'<td>{c}</td>' for c in row]) + "</tr>" for row in rows]) + "</tbody></table>"
 
 
 def main():
@@ -32,26 +49,60 @@ def main():
     research = load('market_research.json')
     recs = load('recommendations.json')
     pages = load('pages.json')
+    integrations = load('integrations.json')
+    skills = load('skills_required.json')
+    competitors = load('competitors.json')
+    opportunities = load('opportunities.json')
+    profiles = load('segment_profiles.json')
 
-    home_cards = ''.join([f"<div class='card'><div class='muted small'>{k}</div><div style='font-size:30px;font-weight:bold'>{v}</div></div>" for k,v in summary['stats'].items()])
+    stat_cards = ''.join([f"<div class='card'><div class='muted small'>{k}</div><div style='font-size:30px;font-weight:bold'>{v}</div></div>" for k, v in summary['stats'].items()])
+    segment_cards = ''.join([
+        f"<a href='segments/{p['slug']}.html'>{card(p['name'], p['short_description'], f'עדיפות #{p['priority_rank']}')}</a>" for p in profiles
+    ])
     top_insights = ''.join([f"<li><strong>{i['title']}</strong> — {i['summary']}</li>" for i in summary['top_insights']])
     top_recs = ''.join([f"<li><strong>{i['title']}</strong> — {i['details']}</li>" for i in summary['top_recommendations']])
-    save('index.html', render_page('Market Research Hub', f"<section class='grid'>{home_cards}</section><section class='section card'><h2>תקציר מנהלים</h2><p>{summary['executive_summary']}</p></section><section class='section card'><h2>Top Insights</h2><ul>{top_insights}</ul></section><section class='section card'><h2>Top Recommendations</h2><ul>{top_recs}</ul></section>", 'home'))
+    home = f"<section class='grid'>{stat_cards}</section><section class='section card'><h2>תקציר מנהלים</h2><p>{summary['executive_summary']}</p><p><strong>סדר עדיפויות:</strong> {' ← '.join(summary['priority_order'])}</p></section><section class='section'><h2>סגמנטים</h2><div class='grid'>{segment_cards}</div></section><section class='section card'><h2>Top Insights</h2><ul>{top_insights}</ul></section><section class='section card'><h2>Top Recommendations</h2><ul>{top_recs}</ul></section>"
+    write(SRC / 'index.html', page_template('Market Research Hub', home, 'home'))
 
-    aud_rows = [[a['name'], a['short_description'], a['pain_level'], a['wtp_score'], a['decision_speed'], a['targeting_ease'], a['technical_complexity'], a['priority_rank'], a['recommended_offer'], a['recommended_mvp']] for a in audiences]
-    aud_table = "<table><thead><tr><th>קהל</th><th>תיאור</th><th>Pain</th><th>WTP</th><th>מהירות החלטה</th><th>קלות טירגוט</th><th>מורכבות טכנית</th><th>דירוג</th><th>הצעת ערך</th><th>MVP</th></tr></thead><tbody>" + ''.join(["<tr>" + ''.join([f"<td>{c}</td>" for c in row]) + "</tr>" for row in aud_rows]) + "</tbody></table>"
-    save('audiences.html', render_page('קהלי יעד', f"<section class='card'>{aud_table}</section>", 'audiences'))
+    aud_rows = []
+    for p in profiles:
+        aud_rows.append([f"<a href='segments/{p['slug']}.html'>{p['name']}</a>", p['pain_level'], p['wtp_score'], p['decision_speed'], p['targeting_ease'], p['technical_complexity'], p['priority_rank'], p['recommended_offer'], p['recommended_mvp']])
+    write(SRC / 'audiences.html', page_template('קהלי יעד', f"<section class='card'>{table(['קהל','Pain','WTP','מהירות החלטה','קלות טירגוט','מורכבות טכנית','דירוג','הצעת ערך','MVP'], aud_rows)}</section>", 'audiences'))
 
-    res_rows = [[r['created_at'], r['segment'], r['title'], r['summary'], r['pain_points'], r['objections'], r['priority_score'], r['status']] for r in research]
-    res_table = "<table><thead><tr><th>תאריך</th><th>סגמנט</th><th>כותרת</th><th>סיכום</th><th>כאבים</th><th>התנגדויות</th><th>Score</th><th>סטטוס</th></tr></thead><tbody>" + ''.join(["<tr>" + ''.join([f"<td>{c}</td>" for c in row]) + "</tr>" for row in res_rows]) + "</tbody></table>"
-    save('research.html', render_page('מחקרי שוק', f"<section class='card'>{res_table}</section>", 'research'))
+    res_rows = [[r['created_at'], r['segment'], r['title'], r['summary'], r['pain_points'], r['objections'], r['priority_score']] for r in research]
+    write(SRC / 'research.html', page_template('מחקרי שוק', f"<section class='card'>{table(['תאריך','סגמנט','כותרת','סיכום','כאבים','התנגדויות','Score'], res_rows)}</section>", 'research'))
 
-    rec_cards = ''.join([f"<div class='card'><div class='pill'>{r['type']}</div><h3>{r['title']}</h3><div class='muted small'>{r['audience_name'] or 'כללי'} | {r['priority']}</div><p>{r['details']}</p></div>" for r in recs])
-    save('recommendations.html', render_page('המלצות', f"<section class='grid'>{rec_cards}</section>", 'recommendations'))
+    rec_cards = ''.join([card(r['title'], r['details'], f"{r['audience_name'] or 'כללי'} | {r['type']} | {r['priority']}") for r in recs])
+    write(SRC / 'recommendations.html', page_template('המלצות', f"<section class='grid'>{rec_cards}</section>", 'recommendations'))
 
-    page_rows = [[p['created_at'], p['title'], p['kind'], p['audience'], p['summary'], p['status']] for p in pages]
-    page_table = "<table><thead><tr><th>תאריך</th><th>כותרת</th><th>סוג</th><th>קהל</th><th>סיכום</th><th>סטטוס</th></tr></thead><tbody>" + ''.join(["<tr>" + ''.join([f"<td>{c}</td>" for c in row]) + "</tr>" for row in page_rows]) + "</tbody></table>"
-    save('pages.html', render_page('דפים ותוצרים', f"<section class='card'>{page_table}</section>", 'pages'))
+    landing = ''.join([card(p['name'], p['landing_angle'] + '<br><strong>Headline:</strong> ' + p['core_message'], f"<a href='segments/{p['slug']}.html'>לעמוד הסגמנט</a>") for p in profiles])
+    write(SRC / 'landing-pages.html', page_template('המלצות לדפי נחיתה', f"<section class='grid'>{landing}</section>", 'landing'))
+
+    comp_rows = [[c['segment'], c['competitor'], c['type'], c['strength'], c['weakness'], c['opportunity']] for c in competitors]
+    write(SRC / 'competitors.html', page_template('מחקר מתחרים ראשוני', f"<section class='card'>{table(['סגמנט','מתחרה','סוג','חוזקה','חולשה','הזדמנות'], comp_rows)}</section>", 'competitors'))
+
+    opp_cards = ''.join([card(o['workflow'], f"<strong>בעיה:</strong> {o['problem']}<br><strong>פתרון:</strong> {o['solution']}", f"{o['segment']} | {o['priority']}") for o in opportunities])
+    write(SRC / 'opportunities.html', page_template('הזדמנויות מוצר', f"<section class='grid'>{opp_cards}</section>", 'opportunities'))
+
+    page_rows = [[p['created_at'], p['title'], p['kind'], p['audience'], p['summary'], p['url_slug']] for p in pages]
+    write(SRC / 'pages.html', page_template('דפים ותוצרים', f"<section class='card'>{table(['תאריך','כותרת','סוג','קהל','סיכום','slug'], page_rows)}</section>", 'pages'))
+
+    for p in profiles:
+        p_research = [r for r in research if r['segment'] == p['name']]
+        p_recs = [r for r in recs if r['audience_name'] == p['name']]
+        p_int = [i for i in integrations if i['audience_name'] == p['name']]
+        p_skills = [s for s in skills if s['audience_name'] == p['name']]
+        body = f"<section class='card'><h2>למה הקהל הזה חשוב</h2><p>{p['short_description']}</p><p><strong>מסר ליבה:</strong> {p['core_message']}</p><p><strong>זווית לדף נחיתה:</strong> {p['landing_angle']}</p><p><strong>צעד הבא:</strong> {p['next_step']}</p></section>"
+        body += f"<section class='section card'><h2>Scoring</h2>{table(['Pain','WTP','Decision Speed','Targeting Ease','Technical Complexity','Priority Rank'], [[p['pain_level'],p['wtp_score'],p['decision_speed'],p['targeting_ease'],p['technical_complexity'],p['priority_rank']]])}</section>"
+        body += f"<section class='section card'><h2>מחקרי מפתח</h2><ul>{''.join([f'<li><strong>{r['title']}</strong> — {r['summary']}</li>' for r in p_research])}</ul></section>"
+        body += f"<section class='section card'><h2>המלצות</h2><ul>{''.join([f'<li><strong>{r['title']}</strong> — {r['details']}</li>' for r in p_recs])}</ul></section>"
+        body += f"<section class='section card'><h2>אינטגרציות נדרשות</h2>{table(['מערכת','סוג','חשיבות','הערות'], [[i['system_name'], i['system_type'], i['importance'], i['notes']] for i in p_int])}</section>"
+        body += f"<section class='section card'><h2>Skills נדרשים</h2>{table(['Skill','מטרה','עדיפות'], [[s['skill_name'], s['purpose'], s['priority']] for s in p_skills])}</section>"
+        write(SEGMENTS / f"{p['slug']}.html", page_template(p['name'], body, root='../'))
+
+    audience_master = "<section class='card'><h2>Audience Master Document</h2><p>עמוד זה מרכז את כל ההחלטות: scoring, סדר עדיפויות, זוויות מסר, אתגרים טכנולוגיים וצעדים הבאים.</p></section>"
+    audience_master += f"<section class='section card'>{table(['קהל','מסר ליבה','זווית דף נחיתה','צעד הבא'], [[p['name'], p['core_message'], p['landing_angle'], p['next_step']] for p in profiles])}</section>"
+    write(PAGES_DIR / 'audience-master.html', page_template('מסמך קהלי יעד מאוחד', audience_master, root='../'))
 
 
 if __name__ == '__main__':

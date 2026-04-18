@@ -1,0 +1,30 @@
+[
+  {
+    "segment": "פרילנסרים / מנהלי צוות עצמאיים",
+    "workflow": "Lead to Proposal",
+    "problem": "לידים נמרחים בין שיחה להצעה",
+    "solution": "agent שמרכז brief, מייצר draft להצעה, ועוקב עד סגירה",
+    "priority": "high"
+  },
+  {
+    "segment": "רואי חשבון / פיננסים",
+    "workflow": "Missing Documents",
+    "problem": "ריצה ידנית אחרי מסמכים חסרים",
+    "solution": "dashboard + reminders + classification + exceptions",
+    "priority": "high"
+  },
+  {
+    "segment": "אנשי HR / גיוס",
+    "workflow": "Interview Ops",
+    "problem": "תיאום, שאלות, פידבק מפוזרים",
+    "solution": "coordinator שמסכם קו\"ח, בונה שאלות ומרכז feedback",
+    "priority": "medium"
+  },
+  {
+    "segment": "סוכני נדל\"ן / מתווכים",
+    "workflow": "Lead Follow-Up",
+    "problem": "לידים נופלים בין הודעות ופגישות",
+    "solution": "assistant לוואטסאפ, CRM sync, ותיעדוף follow-up",
+    "priority": "medium"
+  }
+]
