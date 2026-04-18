@@ -1,0 +1,90 @@
+[
+  {
+    "id": 8,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "כללי",
+    "type": "strategy",
+    "title": "סדר עדיפויות",
+    "details": "להוביל עם פרילנסרים, אחריהם רואי חשבון, ורק אחר כך HR ונדל\"ן.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 7,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "כללי",
+    "type": "site",
+    "title": "Research Hub",
+    "details": "להחזיק repo עם SQLite, JSON exports, אתר סטטי ו-deploy אוטומטי ל-GitHub Pages.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 4,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "רואי חשבון / פיננסים",
+    "type": "tech",
+    "title": "Human in the loop",
+    "details": "לשמור בקרה אנושית, audit trail ו-approval logic כבר מהגרסה הראשונה.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 3,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "רואי חשבון / פיננסים",
+    "type": "product",
+    "title": "MVP ראשון",
+    "details": "להתחיל ב-flow של מסמכים חסרים, סיווג, dashboard ומעקב ללקוח.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 2,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "type": "research",
+    "title": "שאלות ראיונות שוק",
+    "details": "לראיין 10 פרילנסרים על הצעות מחיר, bottlenecks, follow-up והיכן לידים נופלים.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 1,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "type": "offer",
+    "title": "הצעת ערך ראשונה",
+    "details": "תבנו לעצמכם עובד AI פנימי שמטפל בלידים, הצעות מחיר, בריפים ו-follow-up.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 6,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "סוכני נדל\"ן / מתווכים",
+    "type": "landing-page",
+    "title": "זווית לדף נחיתה",
+    "details": "למכור מהירות תגובה, סדר בלידים ויותר פגישות, לא \"AI מגניב\".",
+    "priority": "medium",
+    "owner": "Elon",
+    "status": "open"
+  },
+  {
+    "id": 5,
+    "created_at": "2026-04-18 17:41:45",
+    "audience_name": "אנשי HR / גיוס",
+    "type": "product",
+    "title": "Workflow ראשון",
+    "details": "להתחיל ב-resume parsing + scorecard + interview question generation, לא במנוע החלטה אוטונומי.",
+    "priority": "medium",
+    "owner": "Elon",
+    "status": "open"
+  }
+]

@@ -1,0 +1,28 @@
+name: Daily Refresh
+
+on:
+  schedule:
+    - cron: '12 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh data
+        run: |
+          python3 scripts/seed_and_export.py
+          python3 scripts/build_site.py
+      - name: Commit if changed
+        run: |
+          git config user.name "Elon Agent"
+          git config user.email "talchaim@gmail.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: daily research refresh"
+          git push

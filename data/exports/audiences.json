@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "category": "operations",
+    "short_description": "עצמאיים וסוכנויות קטנות שמחפשים leverage, אוטומציה ויותר תפוקה ללא גיוס.",
+    "pain_level": 5,
+    "wtp_score": 4,
+    "decision_speed": 5,
+    "targeting_ease": 4,
+    "technical_complexity": 3,
+    "priority_rank": 1,
+    "recommended_offer": "בנו לעצמכם עובד AI פנימי ללידים, הצעות מחיר, בריפים ו-follow-up",
+    "recommended_mvp": "טופס intake + סיכום דרישה + draft להצעת מחיר + follow-up reminders",
+    "notes": "קהל ראשון מומלץ. ROI מהיר, מעט חסמי רגולציה."
+  },
+  {
+    "id": 2,
+    "name": "רואי חשבון / פיננסים",
+    "category": "finance",
+    "short_description": "משרדי ראיית חשבון ופיננסים עם עומס מסמכים, בדיקות, מעקב וחוסרים.",
+    "pain_level": 5,
+    "wtp_score": 5,
+    "decision_speed": 3,
+    "targeting_ease": 4,
+    "technical_complexity": 4,
+    "priority_rank": 2,
+    "recommended_offer": "בנו תהליכי AI פנימיים שחוסכים שעות עבודה בלי להחליף את המערכות הקיימות",
+    "recommended_mvp": "קליטת מסמכים + סיווג + dashboard לחוסרים + follow-up ללקוחות",
+    "notes": "Vertical חזק, אך דורש בקרה, audit trail ו-human-in-the-loop."
+  },
+  {
+    "id": 3,
+    "name": "אנשי HR / גיוס",
+    "category": "hr",
+    "short_description": "צוותי HR וגיוס שרוצים לקצר עבודה תפעולית ולבנות כלי AI פנימיים.",
+    "pain_level": 4,
+    "wtp_score": 4,
+    "decision_speed": 3,
+    "targeting_ease": 4,
+    "technical_complexity": 4,
+    "priority_rank": 3,
+    "recommended_offer": "בנו כלי AI פנימיים שמקצרים עבודת גיוס ותפעול HR בלי תלות בפיתוח",
+    "recommended_mvp": "resume parsing + scorecard + interview questions + feedback summarizer",
+    "notes": "טוב, אבל רגיש לפרטיות, bias ואישור ארגוני."
+  },
+  {
+    "id": 4,
+    "name": "סוכני נדל\"ן / מתווכים",
+    "category": "real-estate",
+    "short_description": "מתווכים ומשרדי תיווך שרוצים follow-up מהיר יותר, סדר בלידים ויותר עסקאות.",
+    "pain_level": 4,
+    "wtp_score": 3,
+    "decision_speed": 4,
+    "targeting_ease": 3,
+    "technical_complexity": 3,
+    "priority_rank": 4,
+    "recommended_offer": "בנו עוזר AI ללידים, תיאומי פגישות ומעקב שוטף",
+    "recommended_mvp": "lead intake + prioritization + follow-up + התאמת נכסים בסיסית",
+    "notes": "יש כאב, אבל adoption פחות יציב."
+  }
+]

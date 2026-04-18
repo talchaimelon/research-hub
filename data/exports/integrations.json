@@ -1,0 +1,119 @@
+[
+  {
+    "id": 9,
+    "audience_name": "אנשי HR / גיוס",
+    "system_name": "Calendar",
+    "system_type": "calendar",
+    "required_for_mvp": 1,
+    "importance": "medium",
+    "notes": "תיאום ראיונות"
+  },
+  {
+    "id": 8,
+    "audience_name": "אנשי HR / גיוס",
+    "system_name": "ATS",
+    "system_type": "hr-system",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "resume parsing ו-pipeline"
+  },
+  {
+    "id": 10,
+    "audience_name": "אנשי HR / גיוס",
+    "system_name": "Email",
+    "system_type": "email",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "תקשורת עם מועמדים"
+  },
+  {
+    "id": 13,
+    "audience_name": "סוכני נדל\"ן / מתווכים",
+    "system_name": "Google Sheets",
+    "system_type": "spreadsheets",
+    "required_for_mvp": 1,
+    "importance": "medium",
+    "notes": "גיבוי ומעקב פשוט"
+  },
+  {
+    "id": 11,
+    "audience_name": "סוכני נדל\"ן / מתווכים",
+    "system_name": "WhatsApp",
+    "system_type": "messaging",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "follow-up ולידים"
+  },
+  {
+    "id": 12,
+    "audience_name": "סוכני נדל\"ן / מתווכים",
+    "system_name": "CRM נדל\"ן",
+    "system_type": "crm",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "סטטוס לידים ונכסים"
+  },
+  {
+    "id": 2,
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "system_name": "Google Calendar",
+    "system_type": "calendar",
+    "required_for_mvp": 1,
+    "importance": "medium",
+    "notes": "תיאומים, משימות, action items"
+  },
+  {
+    "id": 3,
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "system_name": "Notion",
+    "system_type": "workspace",
+    "required_for_mvp": 1,
+    "importance": "medium",
+    "notes": "ניהול בריפים וידע"
+  },
+  {
+    "id": 1,
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "system_name": "Gmail",
+    "system_type": "email",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "קריאה, סיכום, draft replies ו-follow-up"
+  },
+  {
+    "id": 4,
+    "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
+    "system_name": "Airtable / CRM",
+    "system_type": "database",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "pipeline ללידים והצעות"
+  },
+  {
+    "id": 7,
+    "audience_name": "רואי חשבון / פיננסים",
+    "system_name": "ERP / הנה\"ח",
+    "system_type": "finance-system",
+    "required_for_mvp": 1,
+    "importance": "medium",
+    "notes": "חיבור לייצואים ממערכות legacy"
+  },
+  {
+    "id": 5,
+    "audience_name": "רואי חשבון / פיננסים",
+    "system_name": "Google Drive / Dropbox",
+    "system_type": "documents",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "קליטת מסמכים וארגון"
+  },
+  {
+    "id": 6,
+    "audience_name": "רואי חשבון / פיננסים",
+    "system_name": "Excel / Google Sheets",
+    "system_type": "spreadsheets",
+    "required_for_mvp": 1,
+    "importance": "high",
+    "notes": "ייצוא, בדיקות, reconciliation"
+  }
+]
