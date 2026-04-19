@@ -38,5 +38,13 @@
     "strength": "מנהלים pipeline",
     "weakness": "חלשים ב-follow-up אינטליגנטי",
     "opportunity": "WhatsApp-first follow-up assistant"
+  },
+  {
+    "segment": "משפטי",
+    "competitor": "LegalTech point solutions",
+    "type": "legaltech",
+    "strength": "פתרונות נישתיים למסמכים",
+    "weakness": "לא flow מלא של משרד קטן/בינוני",
+    "opportunity": "להוביל עם workflow orchestration ולא רק drafting"
   }
 ]

@@ -13,6 +13,7 @@
     "recommended_offer": "בנו לעצמכם עובד AI פנימי ללידים, הצעות מחיר, בריפים ו-follow-up",
     "recommended_mvp": "טופס intake + סיכום דרישה + draft להצעת מחיר + follow-up reminders",
     "notes": "קהל ראשון מומלץ. ROI מהיר, מעט חסמי רגולציה.",
+    "status": "approved",
     "core_message": "תפסיקו להיות צוואר הבקבוק של העסק שלכם.",
     "landing_angle": "פחות אדמין, יותר תפוקה, יותר רווח בלי להגדיל צוות.",
     "next_step": "לראיין 10 פרילנסרים על process של הצעת מחיר ו-follow-up."
@@ -31,6 +32,7 @@
     "recommended_offer": "בנו תהליכי AI פנימיים שחוסכים שעות עבודה בלי להחליף את המערכות הקיימות",
     "recommended_mvp": "קליטת מסמכים + סיווג + dashboard לחוסרים + follow-up ללקוחות",
     "notes": "Vertical חזק, אך דורש בקרה, audit trail ו-human-in-the-loop.",
+    "status": "approved",
     "core_message": "פחות עבודה שחורה, יותר שליטה, סדר ורווחיות.",
     "landing_angle": "AI כעוזר תפעולי למשרד, לא כתחליף לשיקול דעת מקצועי.",
     "next_step": "למפות תהליך חוסרים / מסמכים / סגירת חודש עם 8-10 משרדים."
@@ -49,6 +51,7 @@
     "recommended_offer": "בנו כלי AI פנימיים שמקצרים עבודת גיוס ותפעול HR בלי תלות בפיתוח",
     "recommended_mvp": "resume parsing + scorecard + interview questions + feedback summarizer",
     "notes": "טוב, אבל רגיש לפרטיות, bias ואישור ארגוני.",
+    "status": "approved",
     "core_message": "שחררו את צוות הגיוס ממשימות שחוזרות על עצמן.",
     "landing_angle": "פחות אדמין, יותר גיוס, יותר candidate experience.",
     "next_step": "לראיין 8 מגייסים ולבחור workflow low-risk ראשון."
@@ -67,8 +70,47 @@
     "recommended_offer": "בנו עוזר AI ללידים, תיאומי פגישות ומעקב שוטף",
     "recommended_mvp": "lead intake + prioritization + follow-up + התאמת נכסים בסיסית",
     "notes": "יש כאב, אבל adoption פחות יציב.",
+    "status": "approved",
     "core_message": "יותר מהירות תגובה, יותר סדר, יותר עסקאות.",
     "landing_angle": "למכור תוצאה, לא טכנולוגיה. מהירות תגובה ו-follow-up = כסף.",
     "next_step": "לדבר עם 10 מתווכים ולבדוק איפה לידים באמת נופלים."
+  },
+  {
+    "slug": "lawyers",
+    "name": "עורכי דין / משרדי עורכי דין",
+    "category": "legal",
+    "short_description": "משרדים ועורכי דין שמחפשים לחסוך זמן על מסמכים, intake, תיאומים ומעקב.",
+    "pain_level": 5,
+    "wtp_score": 5,
+    "decision_speed": 3,
+    "targeting_ease": 4,
+    "technical_complexity": 4,
+    "priority_rank": 5,
+    "recommended_offer": "בנו כלי AI פנימיים למשרד שחוסכים זמן על intake, מסמכים ותקשורת ראשונית עם לקוחות",
+    "recommended_mvp": "client intake + סיכום שיחות + טיוטות מסמכים + checklist לתיקים",
+    "notes": "קהל חזק מאוד, value כספי ברור, אבל דורש זהירות משפטית וניסוח אחראי.",
+    "status": "pending_approval",
+    "core_message": "פחות זמן על עבודה שחוזרת על עצמה, יותר זמן על עבודה משפטית שמכניסה כסף.",
+    "landing_angle": "לא למכור \"AI חכם\", למכור שליטה, חיסכון בזמן וזרימת עבודה למשרד.",
+    "next_step": "לאשר סגמנט, ואז למפות workflow ראשון: intake / draft / follow-up."
+  },
+  {
+    "slug": "accountants-extended",
+    "name": "הנהלת חשבונות / בק אופיס פיננסי",
+    "category": "finance-ops",
+    "short_description": "מנהלות חשבונות, back office פיננסי וצוותי תפעול כספי עם עומס תיעוד ומעקב.",
+    "pain_level": 5,
+    "wtp_score": 4,
+    "decision_speed": 4,
+    "targeting_ease": 4,
+    "technical_complexity": 3,
+    "priority_rank": 6,
+    "recommended_offer": "כלי AI לתיעוד, חוסרים, מעקב וסגירת קצוות פיננסיים יומיומיים",
+    "recommended_mvp": "document collection + reminders + reconciliations checklist",
+    "notes": "קרוב לפיננסים, אבל תת-סגמנט עם pain אופרטיבי חד יותר.",
+    "status": "pending_approval",
+    "core_message": "לסגור קצוות פיננסיים מהר, בלי לרדוף ידנית אחרי כל מסמך.",
+    "landing_angle": "למכור שקט תפעולי, סדר ומהירות, לא אוטומציה לשם אוטומציה.",
+    "next_step": "לאשר אם להחזיק אותו כסגמנט עצמאי או כתת-סגמנט של פיננסים."
   }
 ]

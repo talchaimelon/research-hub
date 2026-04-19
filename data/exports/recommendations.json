@@ -1,145 +1,167 @@
 [
   {
-    "id": 45,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 61,
+    "created_at": "2026-04-19 03:46:28",
+    "audience_name": "עורכי דין / משרדי עורכי דין",
+    "type": "strategy",
+    "title": "Positioning rule",
+    "details": "למסגר את הסגמנט המשפטי כ-workflow acceleration עם review אנושי, לא כאוטומציה שמחליפה עורך דין.",
+    "priority": "high",
+    "owner": "Elon",
+    "status": "pending_approval"
+  },
+  {
+    "id": 58,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "landing-page",
     "title": "Headline מומלץ",
     "details": "פחות עבודה שחורה, יותר שליטה ורווחיות למשרד.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 44,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 57,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "landing-page",
     "title": "Headline מומלץ",
     "details": "פרילנסר חכם לא עובד יותר שעות, הוא בונה לעצמו מערכות.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 43,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 56,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "כללי",
     "type": "landing-page",
     "title": "מסגרת לדפי נחיתה",
     "details": "כל דף נחיתה חייב להתבסס על outcome אחד, workflow אחד, ו-CTA אחד. לא דף כללי מדי.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 42,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 55,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "כללי",
     "type": "strategy",
     "title": "סדר עדיפויות",
     "details": "להוביל עם פרילנסרים, אחריהם רואי חשבון, ורק אחר כך HR ונדל\"ן.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 41,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 54,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "כללי",
     "type": "site",
     "title": "Research Hub",
     "details": "להחזיק repo עם SQLite, JSON exports, אתר סטטי ו-deploy אוטומטי ל-GitHub Pages.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 38,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 51,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "tech",
     "title": "Human in the loop",
     "details": "לשמור בקרה אנושית, audit trail ו-approval logic כבר מהגרסה הראשונה.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 37,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 50,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "product",
     "title": "MVP ראשון",
     "details": "להתחיל ב-flow של מסמכים חסרים, סיווג, dashboard ומעקב ללקוח.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 36,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 49,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "research",
     "title": "שאלות ראיונות שוק",
     "details": "לראיין 10 פרילנסרים על הצעות מחיר, bottlenecks, follow-up והיכן לידים נופלים.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 35,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 48,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "offer",
     "title": "הצעת ערך ראשונה",
     "details": "תבנו לעצמכם עובד AI פנימי שמטפל בלידים, הצעות מחיר, בריפים ו-follow-up.",
     "priority": "high",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 47,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 62,
+    "created_at": "2026-04-19 03:46:28",
+    "audience_name": "הנהלת חשבונות / בק אופיס פיננסי",
+    "type": "strategy",
+    "title": "Segmentation decision",
+    "details": "להחליט אם זה תת-סגמנט נפרד או שכבה בתוך פיננסים. כרגע כדאי לשמור אותו גלוי באתר כ-pending.",
+    "priority": "medium",
+    "owner": "Elon",
+    "status": "pending_approval"
+  },
+  {
+    "id": 60,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "product",
     "title": "MVP channel priority",
     "details": "להעדיף flows של WhatsApp + CRM sync + follow-up sequencing.",
     "priority": "medium",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 46,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 59,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "אנשי HR / גיוס",
     "type": "landing-page",
     "title": "Headline מומלץ",
     "details": "בנו כלי AI פנימיים שמקצרים עבודת גיוס בלי להוסיף כוח אדם.",
     "priority": "medium",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 40,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 53,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "landing-page",
     "title": "זווית לדף נחיתה",
     "details": "למכור מהירות תגובה, סדר בלידים ויותר פגישות, לא \"AI מגניב\".",
     "priority": "medium",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   },
   {
-    "id": 39,
-    "created_at": "2026-04-18 20:59:41",
+    "id": 52,
+    "created_at": "2026-04-19 03:46:28",
     "audience_name": "אנשי HR / גיוס",
     "type": "product",
     "title": "Workflow ראשון",
     "details": "להתחיל ב-resume parsing + scorecard + interview question generation, לא במנוע החלטה אוטונומי.",
     "priority": "medium",
     "owner": "Elon",
-    "status": "open"
+    "status": "approved"
   }
 ]

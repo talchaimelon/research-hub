@@ -4,27 +4,47 @@
     "workflow": "Lead to Proposal",
     "problem": "לידים נמרחים בין שיחה להצעה",
     "solution": "agent שמרכז brief, מייצר draft להצעה, ועוקב עד סגירה",
-    "priority": "high"
+    "priority": "high",
+    "status": "approved"
   },
   {
     "segment": "רואי חשבון / פיננסים",
     "workflow": "Missing Documents",
     "problem": "ריצה ידנית אחרי מסמכים חסרים",
     "solution": "dashboard + reminders + classification + exceptions",
-    "priority": "high"
+    "priority": "high",
+    "status": "approved"
   },
   {
     "segment": "אנשי HR / גיוס",
     "workflow": "Interview Ops",
     "problem": "תיאום, שאלות, פידבק מפוזרים",
     "solution": "coordinator שמסכם קו\"ח, בונה שאלות ומרכז feedback",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "approved"
   },
   {
     "segment": "סוכני נדל\"ן / מתווכים",
     "workflow": "Lead Follow-Up",
     "problem": "לידים נופלים בין הודעות ופגישות",
     "solution": "assistant לוואטסאפ, CRM sync, ותיעדוף follow-up",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "approved"
+  },
+  {
+    "segment": "עורכי דין / משרדי עורכי דין",
+    "workflow": "Client Intake + Drafting",
+    "problem": "אובדן זמן על intake, סיכום שיחות וטיוטות ראשוניות",
+    "solution": "flow פנימי עם intake, summarization, draft ו-review אנושי",
+    "priority": "high",
+    "status": "pending_approval"
+  },
+  {
+    "segment": "הנהלת חשבונות / בק אופיס פיננסי",
+    "workflow": "Daily Missing Docs Ops",
+    "problem": "הרבה chase ועבודה שחוזרת על עצמה סביב מסמכים",
+    "solution": "reminders, checklist וסטטוס פתוח לכל לקוח",
+    "priority": "medium",
+    "status": "pending_approval"
   }
 ]
