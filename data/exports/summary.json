@@ -10,9 +10,9 @@
   },
   "top_insights": [
     {
-      "id": 203,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 215,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "עורכי דין / משרדי עורכי דין",
       "title": "הזדמנות חזקה, אבל רק עם מיצוב אחראי",
       "summary": "לעורכי דין יש willingness to pay גבוה, pain חד, וערך ברור, אבל אסור למכור אוטומציה כאילו היא מחליפה שיקול דעת משפטי.",
@@ -27,9 +27,9 @@
       "status": "pending_approval"
     },
     {
-      "id": 200,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 212,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "רואי חשבון / פיננסים",
       "title": "Workflow ראשון מומלץ: מסמכים חסרים → dashboard → follow-up",
       "summary": "זה אחד המקומות הכי שוחקים במשרד. אם חוסכים שם שעה ביום, זה רווח מיידי.",
@@ -44,9 +44,9 @@
       "status": "approved"
     },
     {
-      "id": 199,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 211,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "פרילנסרים / מנהלי צוות עצמאיים",
       "title": "Workflow ראשון מומלץ: ליד → intake → proposal → follow-up",
       "summary": "זה workflow עם ROI ברור, קל לדמו, וקל למדוד איפה זמן נשחק ואיפה conversion נופל.",
@@ -61,9 +61,9 @@
       "status": "approved"
     },
     {
-      "id": 198,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 210,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "כללי",
       "title": "מחקרי שוק, קהלים והמלצות צריכים לחיות באתר אחד",
       "summary": "צריך Research Hub מרוכז עם טבלאות, deliverables והמלצות שמתעדכן אוטומטית.",
@@ -78,9 +78,9 @@
       "status": "approved"
     },
     {
-      "id": 197,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 209,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "כללי",
       "title": "אסור לבנות מוצר רוחבי לפני בחירת workflow אחד",
       "summary": "המהלך הנכון הוא לבחור ICP צר ו-workflow כואב אחד, להוכיח ROI, ורק אז להרחיב.",
@@ -95,9 +95,9 @@
       "status": "approved"
     },
     {
-      "id": 204,
-      "created_at": "2026-05-01 06:22:29",
-      "updated_at": "2026-05-01 06:22:29",
+      "id": 216,
+      "created_at": "2026-05-02 05:44:14",
+      "updated_at": "2026-05-02 05:44:14",
       "segment": "הנהלת חשבונות / בק אופיס פיננסי",
       "title": "תת-סגמנט עם pain תפעולי חד",
       "summary": "יש כאן pain יומיומי של חוסרים, מרדף, תיעוד וסגירת קצוות, לפעמים חד יותר ממסר CFO קלאסי.",
@@ -114,8 +114,8 @@
   ],
   "top_recommendations": [
     {
-      "id": 256,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 271,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "עורכי דין / משרדי עורכי דין",
       "type": "strategy",
       "title": "Positioning rule",
@@ -125,8 +125,8 @@
       "status": "pending_approval"
     },
     {
-      "id": 253,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 268,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "רואי חשבון / פיננסים",
       "type": "landing-page",
       "title": "Headline מומלץ",
@@ -136,8 +136,8 @@
       "status": "approved"
     },
     {
-      "id": 252,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 267,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
       "type": "landing-page",
       "title": "Headline מומלץ",
@@ -147,8 +147,8 @@
       "status": "approved"
     },
     {
-      "id": 251,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 266,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "כללי",
       "type": "landing-page",
       "title": "מסגרת לדפי נחיתה",
@@ -158,8 +158,8 @@
       "status": "approved"
     },
     {
-      "id": 250,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 265,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "כללי",
       "type": "strategy",
       "title": "סדר עדיפויות",
@@ -169,8 +169,8 @@
       "status": "approved"
     },
     {
-      "id": 249,
-      "created_at": "2026-05-01 06:22:29",
+      "id": 264,
+      "created_at": "2026-05-02 05:44:14",
       "audience_name": "כללי",
       "type": "site",
       "title": "Research Hub",
