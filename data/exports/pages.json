@@ -1,7 +1,7 @@
 [
   {
-    "id": 550,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 560,
+    "created_at": "2026-06-09 06:57:17",
     "title": "הזדמנויות מוצר",
     "kind": "product",
     "audience": "כללי",
@@ -11,8 +11,8 @@
     "status": "approved"
   },
   {
-    "id": 549,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 559,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר מתחרים ראשוני",
     "kind": "research",
     "audience": "כללי",
@@ -22,8 +22,8 @@
     "status": "approved"
   },
   {
-    "id": 548,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 558,
+    "created_at": "2026-06-09 06:57:17",
     "title": "המלצות לדפי נחיתה",
     "kind": "recommendation",
     "audience": "כללי",
@@ -33,8 +33,8 @@
     "status": "approved"
   },
   {
-    "id": 547,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 557,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק להנהלת חשבונות",
     "kind": "research",
     "audience": "הנהלת חשבונות / בק אופיס פיננסי",
@@ -44,8 +44,8 @@
     "status": "pending_approval"
   },
   {
-    "id": 546,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 556,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק לעורכי דין",
     "kind": "research",
     "audience": "עורכי דין / משרדי עורכי דין",
@@ -55,8 +55,8 @@
     "status": "pending_approval"
   },
   {
-    "id": 545,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 555,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק לנדל\"ן",
     "kind": "research",
     "audience": "סוכני נדל\"ן / מתווכים",
@@ -66,8 +66,8 @@
     "status": "approved"
   },
   {
-    "id": 544,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 554,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק ל-HR",
     "kind": "research",
     "audience": "אנשי HR / גיוס",
@@ -77,8 +77,8 @@
     "status": "approved"
   },
   {
-    "id": 543,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 553,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק לרואי חשבון",
     "kind": "research",
     "audience": "רואי חשבון / פיננסים",
@@ -88,8 +88,8 @@
     "status": "approved"
   },
   {
-    "id": 542,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 552,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מחקר שוק לפרילנסרים",
     "kind": "research",
     "audience": "פרילנסרים / מנהלי צוות עצמאיים",
@@ -99,8 +99,8 @@
     "status": "approved"
   },
   {
-    "id": 541,
-    "created_at": "2026-06-08 08:21:24",
+    "id": 551,
+    "created_at": "2026-06-09 06:57:17",
     "title": "מסמך קהלי יעד מאוחד",
     "kind": "report",
     "audience": "כללי",
