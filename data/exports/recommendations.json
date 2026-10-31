@@ -1,7 +1,7 @@
 [
   {
-    "id": 2986,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 3001,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "type": "strategy",
     "title": "Positioning rule",
@@ -11,8 +11,8 @@
     "status": "pending_approval"
   },
   {
-    "id": 2983,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2998,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -22,8 +22,8 @@
     "status": "approved"
   },
   {
-    "id": 2982,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2997,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -33,8 +33,8 @@
     "status": "approved"
   },
   {
-    "id": 2981,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2996,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "כללי",
     "type": "landing-page",
     "title": "מסגרת לדפי נחיתה",
@@ -44,8 +44,8 @@
     "status": "approved"
   },
   {
-    "id": 2980,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2995,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "כללי",
     "type": "strategy",
     "title": "סדר עדיפויות",
@@ -55,8 +55,8 @@
     "status": "approved"
   },
   {
-    "id": 2979,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2994,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "כללי",
     "type": "site",
     "title": "Research Hub",
@@ -66,8 +66,8 @@
     "status": "approved"
   },
   {
-    "id": 2976,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2991,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "tech",
     "title": "Human in the loop",
@@ -77,8 +77,8 @@
     "status": "approved"
   },
   {
-    "id": 2975,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2990,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "רואי חשבון / פיננסים",
     "type": "product",
     "title": "MVP ראשון",
@@ -88,8 +88,8 @@
     "status": "approved"
   },
   {
-    "id": 2974,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2989,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "research",
     "title": "שאלות ראיונות שוק",
@@ -99,8 +99,8 @@
     "status": "approved"
   },
   {
-    "id": 2973,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2988,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "type": "offer",
     "title": "הצעת ערך ראשונה",
@@ -110,8 +110,8 @@
     "status": "approved"
   },
   {
-    "id": 2987,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 3002,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "הנהלת חשבונות / בק אופיס פיננסי",
     "type": "strategy",
     "title": "Segmentation decision",
@@ -121,8 +121,8 @@
     "status": "pending_approval"
   },
   {
-    "id": 2985,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 3000,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "product",
     "title": "MVP channel priority",
@@ -132,8 +132,8 @@
     "status": "approved"
   },
   {
-    "id": 2984,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2999,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "אנשי HR / גיוס",
     "type": "landing-page",
     "title": "Headline מומלץ",
@@ -143,8 +143,8 @@
     "status": "approved"
   },
   {
-    "id": 2978,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2993,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "type": "landing-page",
     "title": "זווית לדף נחיתה",
@@ -154,8 +154,8 @@
     "status": "approved"
   },
   {
-    "id": 2977,
-    "created_at": "2026-10-30 09:59:38",
+    "id": 2992,
+    "created_at": "2026-10-31 09:37:55",
     "audience_name": "אנשי HR / גיוס",
     "type": "product",
     "title": "Workflow ראשון",
