@@ -1,6 +1,6 @@
 [
   {
-    "id": 3715,
+    "id": 3733,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "Calendar",
     "system_type": "calendar",
@@ -9,7 +9,7 @@
     "notes": "תיאום ראיונות"
   },
   {
-    "id": 3714,
+    "id": 3732,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "ATS",
     "system_type": "hr-system",
@@ -18,7 +18,7 @@
     "notes": "resume parsing ו-pipeline"
   },
   {
-    "id": 3716,
+    "id": 3734,
     "audience_name": "אנשי HR / גיוס",
     "system_name": "Email",
     "system_type": "email",
@@ -27,7 +27,7 @@
     "notes": "תקשורת עם מועמדים"
   },
   {
-    "id": 3723,
+    "id": 3741,
     "audience_name": "הנהלת חשבונות / בק אופיס פיננסי",
     "system_name": "Sheets / Excel",
     "system_type": "spreadsheets",
@@ -36,7 +36,7 @@
     "notes": "מעקב חוסרים, reconciliation, checklists"
   },
   {
-    "id": 3724,
+    "id": 3742,
     "audience_name": "הנהלת חשבונות / בק אופיס פיננסי",
     "system_name": "Drive / Email",
     "system_type": "documents",
@@ -45,7 +45,7 @@
     "notes": "מסמכים ו-reminders"
   },
   {
-    "id": 3719,
+    "id": 3737,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "Google Sheets",
     "system_type": "spreadsheets",
@@ -54,7 +54,7 @@
     "notes": "גיבוי ומעקב פשוט"
   },
   {
-    "id": 3717,
+    "id": 3735,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "WhatsApp",
     "system_type": "messaging",
@@ -63,7 +63,7 @@
     "notes": "follow-up ולידים"
   },
   {
-    "id": 3718,
+    "id": 3736,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "system_name": "CRM נדל\"ן",
     "system_type": "crm",
@@ -72,7 +72,7 @@
     "notes": "סטטוס לידים ונכסים"
   },
   {
-    "id": 3722,
+    "id": 3740,
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "system_name": "Calendar",
     "system_type": "calendar",
@@ -81,7 +81,7 @@
     "notes": "פגישות, deadlines, follow-up"
   },
   {
-    "id": 3720,
+    "id": 3738,
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "system_name": "Gmail / Outlook",
     "system_type": "email",
@@ -90,7 +90,7 @@
     "notes": "תקשורת לקוחות, intake, follow-up"
   },
   {
-    "id": 3721,
+    "id": 3739,
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "system_name": "Google Drive / DMS",
     "system_type": "documents",
@@ -99,7 +99,7 @@
     "notes": "מסמכים, תיוג, טיוטות, checklists"
   },
   {
-    "id": 3708,
+    "id": 3726,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Google Calendar",
     "system_type": "calendar",
@@ -108,7 +108,7 @@
     "notes": "תיאומים, משימות, action items"
   },
   {
-    "id": 3709,
+    "id": 3727,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Notion",
     "system_type": "workspace",
@@ -117,7 +117,7 @@
     "notes": "ניהול בריפים וידע"
   },
   {
-    "id": 3707,
+    "id": 3725,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Gmail",
     "system_type": "email",
@@ -126,7 +126,7 @@
     "notes": "קריאה, סיכום, draft replies ו-follow-up"
   },
   {
-    "id": 3710,
+    "id": 3728,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "system_name": "Airtable / CRM",
     "system_type": "database",
@@ -135,7 +135,7 @@
     "notes": "pipeline ללידים והצעות"
   },
   {
-    "id": 3713,
+    "id": 3731,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "ERP / הנה\"ח",
     "system_type": "finance-system",
@@ -144,7 +144,7 @@
     "notes": "חיבור לייצואים ממערכות legacy"
   },
   {
-    "id": 3711,
+    "id": 3729,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "Google Drive / Dropbox",
     "system_type": "documents",
@@ -153,7 +153,7 @@
     "notes": "קליטת מסמכים וארגון"
   },
   {
-    "id": 3712,
+    "id": 3730,
     "audience_name": "רואי חשבון / פיננסים",
     "system_name": "Excel / Google Sheets",
     "system_type": "spreadsheets",
