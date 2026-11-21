@@ -1,104 +1,104 @@
 [
   {
-    "id": 3280,
+    "id": 3295,
     "audience_name": "אנשי HR / גיוס",
     "skill_name": "resume parsing",
     "purpose": "פענוח קו\"ח ותיוג",
     "priority": "high"
   },
   {
-    "id": 3281,
+    "id": 3296,
     "audience_name": "אנשי HR / גיוס",
     "skill_name": "structured evaluation",
     "purpose": "scorecards וקריטריונים",
     "priority": "high"
   },
   {
-    "id": 3282,
+    "id": 3297,
     "audience_name": "אנשי HR / גיוס",
     "skill_name": "privacy controls",
     "purpose": "הרשאות, פרטיות, גישה",
     "priority": "high"
   },
   {
-    "id": 3288,
+    "id": 3303,
     "audience_name": "הנהלת חשבונות / בק אופיס פיננסי",
     "skill_name": "document chase workflows",
     "purpose": "מרדף חוסרים ותיעוד",
     "priority": "high"
   },
   {
-    "id": 3285,
+    "id": 3300,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "skill_name": "matching logic",
     "purpose": "התאמת נכסים לצרכים",
     "priority": "medium"
   },
   {
-    "id": 3283,
+    "id": 3298,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "skill_name": "lead routing",
     "purpose": "תיעדוף והפצת לידים",
     "priority": "high"
   },
   {
-    "id": 3284,
+    "id": 3299,
     "audience_name": "סוכני נדל\"ן / מתווכים",
     "skill_name": "messaging automation",
     "purpose": "follow-up והודעות",
     "priority": "high"
   },
   {
-    "id": 3286,
+    "id": 3301,
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "skill_name": "document drafting guardrails",
     "purpose": "טיוטות עם review אנושי",
     "priority": "high"
   },
   {
-    "id": 3287,
+    "id": 3302,
     "audience_name": "עורכי דין / משרדי עורכי דין",
     "skill_name": "client intake automation",
     "purpose": "קליטת לקוחות ושיחות ראשוניות",
     "priority": "high"
   },
   {
-    "id": 3274,
+    "id": 3289,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "skill_name": "workflow design",
     "purpose": "אפיון תהליך intake → proposal → follow-up",
     "priority": "high"
   },
   {
-    "id": 3275,
+    "id": 3290,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "skill_name": "prompt engineering",
     "purpose": "בניית agents/tasks אמינים",
     "priority": "high"
   },
   {
-    "id": 3276,
+    "id": 3291,
     "audience_name": "פרילנסרים / מנהלי צוות עצמאיים",
     "skill_name": "email automation",
     "purpose": "הצעות ומעקב אוטומטי",
     "priority": "high"
   },
   {
-    "id": 3277,
+    "id": 3292,
     "audience_name": "רואי חשבון / פיננסים",
     "skill_name": "document processing",
     "purpose": "סיווג, OCR, חוסרים",
     "priority": "high"
   },
   {
-    "id": 3278,
+    "id": 3293,
     "audience_name": "רואי חשבון / פיננסים",
     "skill_name": "human-in-the-loop",
     "purpose": "בקרה ואישור אנושי",
     "priority": "high"
   },
   {
-    "id": 3279,
+    "id": 3294,
     "audience_name": "רואי חשבון / פיננסים",
     "skill_name": "audit trails",
     "purpose": "מעקב על החלטות ושינויים",
